@@ -22,7 +22,7 @@ const App = () => {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          "xi-api-key": API_KEY, // API key in the headers, not the URL path
+          "xi-api-key": API_KEY,
         },
         body: JSON.stringify({
           text: text, // User input text
